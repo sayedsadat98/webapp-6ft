@@ -8,10 +8,10 @@ $mail = new PHPMailer;
 if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) && ( isset($_POST['website']) || isset($_POST['phone']) || isset($_POST['subject']) ) )  {
 	//Important - UPDATE YOUR RECEIVER EMAIL ID, NAME AND SUBJECT
 	// Please enter your email and Subject 	
-	$to_email = 'receiver@email.com';		
-	$to_name = 'Receiver Name';
+	$to_email = 'admin@6ftsecurity.co.uk';		
+	$to_name = '6ft Stewards';
 	// Please enter your subject
-	$subject = "New Contact Query";
+	$subject = "You received a new contact Query";
 	
 	$sender_name = $_POST['name'];
 	$from_mail = $_POST['email'];	

@@ -2021,11 +2021,8 @@ textarea:focus {
   }
 }
 /*========================================== 18.MEDIA QUERIES END ===========================================*/
-
-.col-md-3 {
-  width: 33%;
-}
-
-.row {
-  margin: 7% !important;
+@media only screen and (min-width: 992px) {
+  .row {
+    margin-left: 15%;
+  }
 }
