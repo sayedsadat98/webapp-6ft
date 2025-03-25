@@ -2026,3 +2026,10 @@ textarea:focus {
     margin-left: 15%;
   }
 }
+
+.menuabout {
+  top: 1.5em;
+}
+.menuabout:hover {
+  top: 0;
+}
