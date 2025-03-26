@@ -2033,3 +2033,7 @@ textarea:focus {
 .menuabout:hover {
   top: 0;
 }
+
+.contact-form-1 {
+  width: 70%;
+}
